@@ -116,7 +116,7 @@ p{
 
 /* Pricing */
 #pricing{    
-    padding: 100px;
+    padding: 5%;
 }
 .pricing-column {
     padding: 3% 2%;
@@ -124,6 +124,31 @@ p{
 .pricing-text{
     font-size: 3rem;
     line-height: 1.5;
+}
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    color: white;
+}
+.cta-text{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    background-color: #fff;
+}
+#footer .container-fluid{
+    padding: 7% 15% 3%;
+}
+.footer-icon{    
+    margin-right: 0.5rem;
+}
+.footer-icon:hover{
+    color: #8f8f8f;
 }
 
 @media (max-width: 991px) {
@@ -152,29 +177,9 @@ p{
         font-size: 1.75rem;
         line-height: 1.5;
     }
-}
-
-/* Call to Action */
-#cta{
-    background-color: #ff4c68;
-    color: white;
-}
-.cta-text{
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-/* Footer */
-#footer{
-    background-color: #fff;
-}
-#footer .container-fluid{
-    padding: 7% 15% 3%;
-}
-.footer-icon{    
-    margin-right: 0.5rem;
-}
-.footer-icon:hover{
-    color: #8f8f8f;
+    .testimonial-image{
+        width: 20%;
+        border-radius: 100%;
+        margin: 20px;
+    }
 }
