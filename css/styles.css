@@ -159,7 +159,9 @@ p{
     #title{
         text-align: center;
     }
-
+    #title .container-fluid{
+        padding: 7%;
+    }
     .title-image{
         position: static;
         transform: rotate(0);
@@ -192,5 +194,8 @@ p{
     }
     .pricing-column {
         padding: 3% 7%;
+    }
+    #footer .container-fluid{
+        padding: 7% 15%;
     }
 }
